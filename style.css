@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#mario {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.1s;
+}
+
+#mario:active {
+    transform: scale(0.9);
+}
